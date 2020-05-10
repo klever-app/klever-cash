@@ -2,7 +2,7 @@
 
 A cryptocurrency for the next century. A new blockchain home for all kinds of digital assets.
 
-#### Klever Chain builds on top of Tendermint Byzantine Fault Tolerant (BFT) consensus and the Cosmos SDK.
+Klever Chain builds on top of Tendermint Byzantine Fault Tolerant (BFT) consensus and the Cosmos SDK.
 
 ## Building the `klever-node` application
 
