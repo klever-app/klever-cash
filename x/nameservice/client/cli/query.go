@@ -3,11 +3,11 @@ package cli
 import (
 	"fmt"
 
-	"github.com/Klever-Cash/klever-chain/x/nameservice/internal/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/klever-app/klever-cash/x/nameservice/internal/types"
 	"github.com/spf13/cobra"
 )
 

@@ -3,8 +3,8 @@ package rest
 import (
 	"net/http"
 
-	"github.com/Klever-Cash/klever-chain/x/nameservice/internal/types"
 	"github.com/cosmos/cosmos-sdk/client/context"
+	"github.com/klever-app/klever-cash/x/nameservice/internal/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/rest"

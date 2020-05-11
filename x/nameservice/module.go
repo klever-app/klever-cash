@@ -6,11 +6,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	"github.com/Klever-Cash/klever-chain/x/nameservice/client/cli"
-	"github.com/Klever-Cash/klever-chain/x/nameservice/client/rest"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/cosmos/cosmos-sdk/x/bank"
+	"github.com/klever-app/klever-cash/x/nameservice/client/cli"
+	"github.com/klever-app/klever-cash/x/nameservice/client/rest"
 
 	"github.com/cosmos/cosmos-sdk/client/context"
 	sdk "github.com/cosmos/cosmos-sdk/types"

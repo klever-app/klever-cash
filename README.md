@@ -35,10 +35,10 @@ To initialize configuration and a `genesis.json` file for your application and a
 ```bash
 # Initialize configuration files and genesis file
 # moniker is the name of your node
-klever-node init <moniker> --chain-id namechain
+klever-node init <moniker> --chain-id klever-chain
 
 # Configure your CLI to eliminate need to declare them as flags
-klever-cli config chain-id namechain
+klever-cli config chain-id klever-chain
 klever-cli config output json
 klever-cli config indent true
 klever-cli config trust-node true
@@ -108,12 +108,12 @@ klever-cli query nameservice whois jack.id
 
 # Run second node on another machine (Optional)
 
-Open terminal to run commands against that just created to install klever and klever-cli
+Open terminal to run commands against that just created to install klever-node and klever-cli
 
-## init use another moniker and same namechain
+## init use another moniker and same klever-chain
 
 ```bash
-klever-node init <moniker-2> --chain-id namechain
+klever-node init <moniker-2> --chain-id klever-chain
 ```
 
 ## overwrite ~/.klever-node/config/genesis.json with first node's genesis.json

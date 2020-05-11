@@ -1,8 +1,8 @@
 package nameservice
 
 import (
-	"github.com/Klever-Cash/klever-chain/x/nameservice/internal/keeper"
-	"github.com/Klever-Cash/klever-chain/x/nameservice/internal/types"
+	"github.com/klever-app/klever-cash/x/nameservice/internal/keeper"
+	"github.com/klever-app/klever-cash/x/nameservice/internal/types"
 )
 
 const (

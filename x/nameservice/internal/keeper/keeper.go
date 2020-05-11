@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	"github.com/Klever-Cash/klever-chain/x/nameservice/internal/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/klever-app/klever-cash/x/nameservice/internal/types"
 )
 
 // Keeper maintains the link to storage and exposes getter/setter methods for the various parts of the state machine

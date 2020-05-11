@@ -1,4 +1,4 @@
-module github.com/Klever-Cash/klever-chain
+module github.com/klever-app/klever-cash
 
 go 1.13
 

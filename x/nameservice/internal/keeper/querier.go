@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/Klever-Cash/klever-chain/x/nameservice/internal/types"
+	"github.com/klever-app/klever-cash/x/nameservice/internal/types"
 )
 
 // query endpoints supported by the nameservice Querier
