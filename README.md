@@ -1,5 +1,138 @@
-## Klever Blockchain - Digital Assets
+## Klever Cash
 
+A cryptocurrency for the next century. A new blockchain home for all kinds of digital assets and decentralized applications.
+
+Klever Chain builds on top of Tendermint Byzantine Fault Tolerant (BFT) consensus and the Cosmos SDK.
+
+## Test Accounts
+
+Use ./init.sh for test accounts
+```
+- name: test1
+  type: local
+  address: klv1j07e7cu8scsrlkcqrk5lpzwvlq2g5aeddkcjy4
+  pubkey: klvpub1addwnpepqvksgm3szssdf7enj5s4x09pckqzenfsyngka8lrnpa07037967f6gudvgu
+  mnemonic: ""
+  threshold: 0
+  pubkeys: []
+
+- name: test2
+  type: local
+  address: klv10rx8m8nl4jlre9csurwx4j3mg7pvgefhh2jx23
+  pubkey: klvpub1addwnpepqd9wc2kts5wtdmaeng778vcfn3haxelq4h7x4g7wpv8eljsjazu96s6kyhw
+  mnemonic: ""
+  threshold: 0
+  pubkeys: []
+```
+
+## Genesis File
+```json
+{
+   "app_message":{
+      "auth":{
+         "accounts":[
+
+         ],
+         "params":{
+            "max_memo_characters":"256",
+            "sig_verify_cost_ed25519":"590",
+            "sig_verify_cost_secp256k1":"1000",
+            "tx_sig_limit":"7",
+            "tx_size_cost_per_byte":"10"
+         }
+      },
+      "bank":{
+         "send_enabled":true
+      },
+      "distribution":{
+         "delegator_starting_infos":[
+
+         ],
+         "delegator_withdraw_infos":[
+
+         ],
+         "fee_pool":{
+            "community_pool":[
+
+            ]
+         },
+         "outstanding_rewards":[
+
+         ],
+         "params":{
+            "base_proposer_reward":"0.010000000000000000",
+            "bonus_proposer_reward":"0.040000000000000000",
+            "community_tax":"0.020000000000000000",
+            "withdraw_addr_enabled":true
+         },
+         "previous_proposer":"",
+         "validator_accumulated_commissions":[
+
+         ],
+         "validator_current_rewards":[
+
+         ],
+         "validator_historical_rewards":[
+
+         ],
+         "validator_slash_events":[
+
+         ]
+      },
+      "genutil":{
+         "gentxs":[
+
+         ]
+      },
+      "nameservice":{
+         "whois_records":[
+
+         ]
+      },
+      "params":null,
+      "slashing":{
+         "missed_blocks":{
+
+         },
+         "params":{
+            "downtime_jail_duration":"600000000000",
+            "min_signed_per_window":"0.500000000000000000",
+            "signed_blocks_window":"100",
+            "slash_fraction_double_sign":"0.050000000000000000",
+            "slash_fraction_downtime":"0.010000000000000000"
+         },
+         "signing_infos":{
+
+         }
+      },
+      "staking":{
+         "delegations":null,
+         "exported":false,
+         "last_total_power":"0",
+         "last_validator_powers":null,
+         "params":{
+            "bond_denom":"stake",
+            "historical_entries":0,
+            "max_entries":7,
+            "max_validators":100,
+            "unbonding_time":"1814400000000000"
+         },
+         "redelegations":null,
+         "unbonding_delegations":null,
+         "validators":null
+      },
+      "supply":{
+         "supply":[
+
+         ]
+      }
+   },
+   "chain_id":"namechain",
+   "gentxs_dir":"",
+   "moniker":"test",
+   "node_id":"b55492160b667a4966f68709a021389359ee7c24"
+}
+```
 
 ## Building the `klever-node` application
 
