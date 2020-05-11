@@ -1,4 +1,4 @@
-## Klever Blockchain - Digital Assets
+## Klever Cash Blockchain for Digital Assets
 
 A cryptocurrency for the next century. A new blockchain home for all kinds of digital assets.
 
