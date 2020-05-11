@@ -4,6 +4,27 @@ A cryptocurrency for the next century. A new blockchain home for all kinds of di
 
 Klever Chain builds on top of Tendermint Byzantine Fault Tolerant (BFT) consensus and the Cosmos SDK.
 
+## Test Accounts
+
+Use ./init.sh for test accounts
+```
+- name: test1
+  type: local
+  address: klv1j07e7cu8scsrlkcqrk5lpzwvlq2g5aeddkcjy4
+  pubkey: klvpub1addwnpepqvksgm3szssdf7enj5s4x09pckqzenfsyngka8lrnpa07037967f6gudvgu
+  mnemonic: ""
+  threshold: 0
+  pubkeys: []
+
+- name: test2
+  type: local
+  address: klv10rx8m8nl4jlre9csurwx4j3mg7pvgefhh2jx23
+  pubkey: klvpub1addwnpepqd9wc2kts5wtdmaeng778vcfn3haxelq4h7x4g7wpv8eljsjazu96s6kyhw
+  mnemonic: ""
+  threshold: 0
+  pubkeys: []
+```
+
 ## Genesis File
 ```json
 {
