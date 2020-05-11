@@ -1,6 +1,6 @@
 ## Klever Cash
 
-A cryptocurrency for the next century. A new blockchain home for all kinds of digital assets. 
+A cryptocurrency for the next century. A new blockchain home for all kinds of digital assets and decentralized applications.
 
 Klever Chain builds on top of Tendermint Byzantine Fault Tolerant (BFT) consensus and the Cosmos SDK.
 
